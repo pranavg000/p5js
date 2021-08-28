@@ -9,7 +9,7 @@ function newGeneration(){
 
 	calcFitness();
 	let childGene;
-	for(let i=0;i<Tvehicles;i++){
+	for(let i=0;i<Tpop;i++){
 		childGene = makeGene();
 		rockets.push(new Vehicle(childGene));
 	}
